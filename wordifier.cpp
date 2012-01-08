@@ -27,8 +27,8 @@ int main(int argc, char ** argv)
     
     QCoreApplication app(argc,argv);
     QFile input("listall");
-    QFile index("index.cal");
-    QFile output("definitions.cal");
+    QFile index("whitindex.cal");
+    QFile output("whitdefinitions.cal");
 
     input.open(QFile::ReadOnly);
     index.open(QFile::WriteOnly);
@@ -68,7 +68,7 @@ int main(int argc, char ** argv)
         output.flush();
     }
 
-    QFile output2("indexhash.cal");
+    QFile output2("whitindexhash.cal");
     output2.open(QFile::WriteOnly);
     QDataStream qds(&output2);
     qds << hash;
