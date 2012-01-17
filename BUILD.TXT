@@ -1,0 +1,14 @@
+qmake-qt4 wordifier.pro ; make 
+
+Get Whitakers Words - 
+
+http://users.erols.com/whitaker/words.htm
+
+Get the 'listall' file and put it in the Whitakers Words directory -
+
+http://www.erols.com/whitaker/listall.zip
+
+Run wordifier in the Whitakers Words directory. It will output
+whitindex.cal and whitdefinitions.cal (the latter will be about 250 megs); 
+these go in the same directory books do.
+
